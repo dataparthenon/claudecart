@@ -189,18 +189,19 @@ def main():
     init_tracing()
     setup_ui()
     init_session_state()
-    
-    # Create sidebar and get selected model
-    model_name = create_sidebar(None)  # Passing None initially
-    
+
+    claude_controller = get_claude_controller(
+        st.secrets["secrets"]["ANTHROPIC_API_KEY"],
+        "claude-3-7-sonnet-latest"  # Default model
+    )
+
+    model_name = create_sidebar(claude_controller)
+     
     # Initialize Claude controller with selected model
     claude_controller = get_claude_controller(
         st.secrets["secrets"]["ANTHROPIC_API_KEY"],
         model_name
     )
-    
-    # Update sidebar with controller reference
-    model_name = create_sidebar(claude_controller)
     
     # Display main chat interface
     display_chat_ui(claude_controller)
