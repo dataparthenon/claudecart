@@ -1,0 +1,118 @@
+{
+    "clothing": [
+      {
+        "id": 201,
+        "name": "Levi's 501 Original Jeans",
+        "brand": "Levi's",
+        "category": "clothing",
+        "price": 98.00,
+        "sku": "LEVIS-501-BLUE-32X32",
+        "description": "The original straight fit jean that started it all. Made with premium denim and classic styling that never goes out of fashion.",
+        "features": ["Original straight fit", "Button fly", "Premium denim", "Classic 5-pocket styling"],
+        "specifications": {
+          "fit": "Straight",
+          "rise": "Mid-rise",
+          "material": "100% cotton denim",
+          "closure": "Button fly",
+          "care": "Machine wash cold"
+        },
+        "rating": 4.2,
+        "review_count": 2847
+      },
+      {
+        "id": 202,
+        "name": "Adidas Ultraboost 23",
+        "brand": "Adidas",
+        "category": "clothing",
+        "price": 190.00,
+        "sku": "ADIDAS-UB23-BLK-10",
+        "description": "Premium running shoe with responsive Boost midsole and Primeknit upper. Designed for comfort and performance in every stride.",
+        "features": ["Boost midsole", "Primeknit upper", "Continental rubber outsole", "Torsion System"],
+        "specifications": {
+          "upper": "Primeknit textile",
+          "midsole": "Boost foam",
+          "outsole": "Continental rubber",
+          "drop": "10mm",
+          "weight": "11.2 oz (size 9)"
+        },
+        "rating": 4.5,
+        "review_count": 1923
+      },
+      {
+        "id": 203,
+        "name": "Patagonia Better Sweater Fleece",
+        "brand": "Patagonia",
+        "category": "clothing",
+        "price": 119.00,
+        "sku": "PATAGONIA-FLEECE-GRY-M",
+        "description": "Cozy fleece jacket made from recycled polyester. Perfect for layering or wearing alone in mild weather. Fair Trade Certified sewn.",
+        "features": ["Recycled polyester fleece", "Full-zip design", "Stand-up collar", "Fair Trade Certified"],
+        "specifications": {
+          "material": "100% recycled polyester fleece",
+          "weight": "9.5 oz",
+          "fit": "Regular",
+          "pockets": "Two zippered handwarmer pockets",
+          "care": "Machine wash warm"
+        },
+        "rating": 4.7,
+        "review_count": 856
+      },
+      {
+        "id": 204,
+        "name": "Uniqlo Heattech Ultra Warm Crew Neck",
+        "brand": "Uniqlo",
+        "category": "clothing",
+        "price": 29.90,
+        "sku": "UNIQLO-HEATTECH-BLK-L",
+        "description": "Advanced thermal underwear that generates heat from moisture and maintains warmth. Ultra-thin and comfortable for layering.",
+        "features": ["Heattech technology", "Ultra-thin design", "Moisture-wicking", "Odor control"],
+        "specifications": {
+          "material": "52% acrylic, 34% polyester, 10% rayon, 4% spandex",
+          "technology": "Heattech heat generation",
+          "fit": "Slim",
+          "care": "Machine wash cold",
+          "features": "Anti-odor, moisture-wicking"
+        },
+        "rating": 4.3,
+        "review_count": 1245
+      },
+      {
+        "id": 205,
+        "name": "Champion Reverse Weave Hoodie",
+        "brand": "Champion",
+        "category": "clothing",
+        "price": 70.00,
+        "sku": "CHAMPION-RW-HOODIE-GRY-L",
+        "description": "Classic pullover hoodie with reverse weave construction to resist vertical shrinkage. Heavyweight cotton blend for durability and comfort.",
+        "features": ["Reverse weave construction", "Heavyweight cotton blend", "Kangaroo pocket", "Adjustable drawcord hood"],
+        "specifications": {
+          "material": "82% cotton, 18% polyester",
+          "weight": "12 oz heavyweight",
+          "construction": "Reverse weave",
+          "fit": "Classic",
+          "care": "Machine wash cold"
+        },
+        "rating": 4.4,
+        "review_count": 672
+      },
+      {
+        "id": 206,
+        "name": "Lululemon Align High-Rise Pant",
+        "brand": "Lululemon",
+        "category": "clothing",
+        "price": 128.00,
+        "sku": "LULU-ALIGN-BLK-6",
+        "description": "Ultra-soft yoga leggings with buttery-smooth Nulu fabric. Designed for yoga and low-impact workouts with a barely-there feel.",
+        "features": ["Nulu fabric", "High-rise fit", "No side seams", "Hidden waistband pocket"],
+        "specifications": {
+          "material": "81% nylon, 19% lycra elastane",
+          "fabric": "Nulu - buttery-soft",
+          "rise": "High-rise",
+          "inseam": "25 inches",
+          "features": "Four-way stretch, sweat-wicking"
+        },
+        "rating": 4.6,
+        "review_count": 3421
+      }
+    ]
+  }

@@ -1,0 +1,150 @@
+{
+    "schemas": [
+      {
+        "name": "product_response",
+        "description": "Schema for product information responses",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer",
+              "description": "Product ID"
+            },
+            "name": {
+              "type": "string",
+              "description": "Product name"
+            },
+            "brand": {
+              "type": "string",
+              "description": "Brand name"
+            },
+            "price": {
+              "type": "number",
+              "description": "Current price"
+            },
+            "category": {
+              "type": "string",
+              "description": "Product category"
+            },
+            "description": {
+              "type": "string",
+              "description": "Product description"
+            },
+            "features": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "List of product features"
+            },
+            "specifications": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "string"
+              },
+              "description": "Technical specifications"
+            },
+            "rating": {
+              "type": "number",
+              "description": "Average customer rating"
+            },
+            "review_count": {
+              "type": "integer",
+              "description": "Number of customer reviews"
+            }
+          },
+          "required": ["id", "name", "price"]
+        }
+      },
+      {
+        "name": "price_match_response",
+        "description": "Schema for price match search responses",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "object",
+              "description": "Original product information"
+            },
+            "competitors": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "retailer": {
+                    "type": "string",
+                    "description": "Retailer name"
+                  },
+                  "price": {
+                    "type": "number",
+                    "description": "Competitor price"
+                  },
+                  "url": {
+                    "type": "string",
+                    "description": "Link to competitor product"
+                  },
+                  "price_difference": {
+                    "type": "number",
+                    "description": "Price difference (positive if competitor is cheaper)"
+                  },
+                  "eligible_for_match": {
+                    "type": "boolean",
+                    "description": "Whether this competitor is eligible for price matching"
+                  }
+                }
+              },
+              "description": "List of competitor pricing information"
+            },
+            "recommendation": {
+              "type": "string",
+              "description": "Recommendation on whether to price match"
+            }
+          },
+          "required": ["product", "competitors", "recommendation"]
+        }
+      },
+      {
+        "name": "inventory_response",
+        "description": "Schema for inventory check responses",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "product_id": {
+              "type": "integer",
+              "description": "Product ID"
+            },
+            "in_stock": {
+              "type": "boolean",
+              "description": "Whether the product is in stock"
+            },
+            "quantity": {
+              "type": "integer",
+              "description": "Total quantity available"
+            },
+            "locations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "description": "Store location ID"
+                  },
+                  "name": {
+                    "type": "string",
+                    "description": "Store location name"
+                  },
+                  "quantity": {
+                    "type": "integer",
+                    "description": "Quantity at this location"
+                  }
+                }
+              },
+              "description": "Store locations with inventory"
+            }
+          },
+          "required": ["product_id", "in_stock"]
+        }
+      }
+    ]
+  }

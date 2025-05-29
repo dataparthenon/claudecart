@@ -1,0 +1,98 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "iPhone 15 Pro",
+        "brand": "Apple",
+        "category": "electronics",
+        "price": 999.99,
+        "sku": "IPHONE15PRO-128",
+        "description": "The iPhone 15 Pro features a titanium design, A17 Pro chip, and advanced camera system with 3x telephoto zoom. Available in Natural Titanium, Blue Titanium, White Titanium, and Black Titanium.",
+        "features": ["A17 Pro chip", "Titanium design", "48MP main camera", "3x telephoto zoom", "Action Button", "USB-C"],
+        "specifications": {
+          "display": "6.1-inch Super Retina XDR",
+          "storage": "128GB",
+          "camera": "48MP + 12MP + 12MP",
+          "battery": "Up to 23 hours video",
+          "weight": "187g"
+        },
+        "rating": 4.6,
+        "review_count": 1247
+      },
+      {
+        "id": 2,
+        "name": "MacBook Air M3",
+        "brand": "Apple", 
+        "category": "electronics",
+        "price": 1299.99,
+        "sku": "MBA-M3-13-256",
+        "description": "The new MacBook Air with M3 chip delivers incredible performance in an ultraportable design. Features a 13.6-inch Liquid Retina display and up to 18 hours of battery life.",
+        "features": ["M3 chip", "13.6-inch display", "18-hour battery", "1080p FaceTime camera", "MagSafe charging"],
+        "specifications": {
+          "processor": "Apple M3 chip",
+          "memory": "8GB unified memory",
+          "storage": "256GB SSD",
+          "display": "13.6-inch Liquid Retina",
+          "weight": "2.7 pounds"
+        },
+        "rating": 4.8,
+        "review_count": 892
+      },
+      {
+        "id": 3,
+        "name": "Nike Air Max 270",
+        "brand": "Nike",
+        "category": "clothing",
+        "price": 150.00,
+        "sku": "NIKE-AM270-BLK",
+        "description": "The Nike Air Max 270 features Nike's biggest heel Air unit yet for incredible comfort. Modern design meets maximum cushioning for all-day wear.",
+        "features": ["Max Air cushioning", "Breathable mesh upper", "Rubber outsole", "Lifestyle design"],
+        "specifications": {
+          "upper": "Mesh and synthetic materials",
+          "midsole": "Foam with Max Air unit",
+          "outsole": "Rubber with flex grooves",
+          "weight": "14.3 oz (size 9)"
+        },
+        "rating": 4.4,
+        "review_count": 2156
+      },
+      {
+        "id": 4,
+        "name": "Instant Pot Duo 7-in-1",
+        "brand": "Instant Pot",
+        "category": "home",
+        "price": 79.99,
+        "sku": "IP-DUO60-6QT",
+        "description": "The Instant Pot Duo is a 7-in-1 multi-cooker that pressure cooks, slow cooks, rice cooker, steamer, sauté pan, yogurt maker and warmer. 6-quart capacity feeds up to 6 people.",
+        "features": ["7-in-1 functionality", "6-quart capacity", "13 smart programs", "Stainless steel inner pot", "Safety features"],
+        "specifications": {
+          "capacity": "6 quarts",
+          "functions": "Pressure cook, slow cook, rice cooker, steamer, sauté, yogurt maker, warmer",
+          "programs": "13 smart programs",
+          "material": "Stainless steel inner pot",
+          "dimensions": "13.43 x 12.4 x 12.4 inches"
+        },
+        "rating": 4.5,
+        "review_count": 3421
+      },
+      {
+        "id": 5,
+        "name": "Sony WH-1000XM5",
+        "brand": "Sony",
+        "category": "electronics", 
+        "price": 399.99,
+        "sku": "SONY-WH1000XM5-BLK",
+        "description": "Industry-leading noise canceling headphones with exceptional sound quality. Features 30-hour battery life and crystal-clear hands-free calling.",
+        "features": ["Industry-leading noise canceling", "30-hour battery", "Quick charge", "Multipoint connection", "Speak-to-chat"],
+        "specifications": {
+          "driver": "30mm dome type",
+          "frequency_response": "4Hz-40kHz",
+          "battery": "30 hours with NC on",
+          "charging": "USB-C quick charge",
+          "weight": "250g"
+        },
+        "rating": 4.7,
+        "review_count": 1683
+      }
+    ]
+  }

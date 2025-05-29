@@ -1,0 +1,118 @@
+{
+    "home_goods": [
+      {
+        "id": 301,
+        "name": "KitchenAid Stand Mixer Classic",
+        "brand": "KitchenAid",
+        "category": "home",
+        "price": 379.99,
+        "sku": "KA-CLASSIC-WHT-4.5QT",
+        "description": "Iconic stand mixer with 4.5-quart stainless steel bowl and 10 speeds. Perfect for everyday baking with powerful motor and versatile attachments.",
+        "features": ["4.5-quart capacity", "10 speeds", "Tilt-head design", "Includes 3 attachments"],
+        "specifications": {
+          "capacity": "4.5 quarts",
+          "speeds": "10 speeds",
+          "motor": "250 watts",
+          "attachments": "Flat beater, dough hook, wire whip",
+          "dimensions": "13.9 x 8.7 x 14.1 inches"
+        },
+        "rating": 4.8,
+        "review_count": 2341
+      },
+      {
+        "id": 302,
+        "name": "Dyson V15 Detect Cordless Vacuum",
+        "brand": "Dyson",
+        "category": "home",
+        "price": 749.99,
+        "sku": "DYSON-V15-DETECT",
+        "description": "Advanced cordless vacuum with laser dust detection and intelligent suction adjustment. Features up to 60 minutes of runtime and versatile tools.",
+        "features": ["Laser dust detection", "Intelligent suction", "60-minute runtime", "LCD screen display"],
+        "specifications": {
+          "runtime": "Up to 60 minutes",
+          "bin_capacity": "0.77 liters",
+          "weight": "6.8 pounds",
+          "filtration": "Advanced whole-machine filtration",
+          "tools": "8 tools included"
+        },
+        "rating": 4.6,
+        "review_count": 1567
+      },
+      {
+        "id": 303,
+        "name": "Casper Original Mattress Queen",
+        "brand": "Casper",
+        "category": "home",
+        "price": 1095.00,
+        "sku": "CASPER-ORIG-QUEEN",
+        "description": "Award-winning foam mattress with zoned support and cooling technology. Designed for all sleep positions with 100-night sleep trial.",
+        "features": ["Zoned support", "Cooling foam", "Motion isolation", "100-night trial"],
+        "specifications": {
+          "size": "Queen (60 x 80 inches)",
+          "height": "11 inches",
+          "materials": "Memory foam and support foam layers",
+          "firmness": "Medium-firm",
+          "trial": "100-night sleep trial"
+        },
+        "rating": 4.3,
+        "review_count": 8743
+      },
+      {
+        "id": 304,
+        "name": "Vitamix A3500 Ascent Blender",
+        "brand": "Vitamix",
+        "category": "home",
+        "price": 549.95,
+        "sku": "VITAMIX-A3500-BLK",
+        "description": "Professional-grade blender with smart technology and wireless connectivity. Features variable speed control and preset programs for perfect results.",
+        "features": ["Smart technology", "Variable speed control", "5 preset programs", "Self-cleaning"],
+        "specifications": {
+          "container": "64 oz low-profile",
+          "motor": "2.2 HP",
+          "programs": "5 preset programs",
+          "technology": "Built-in wireless connectivity",
+          "warranty": "10 years"
+        },
+        "rating": 4.7,
+        "review_count": 923
+      },
+      {
+        "id": 305,
+        "name": "West Elm Mid-Century Dining Table",
+        "brand": "West Elm",
+        "category": "home",
+        "price": 899.00,
+        "sku": "WE-MIDCENT-TABLE-WALNUT",
+        "description": "Modern dining table with clean lines and rich walnut finish. Seats 4-6 people comfortably with sturdy construction and timeless design.",
+        "features": ["Solid walnut wood", "Mid-century design", "Seats 4-6 people", "Durable construction"],
+        "specifications": {
+          "material": "Solid walnut wood",
+          "dimensions": "72 x 36 x 29 inches",
+          "seating": "4-6 people",
+          "finish": "Rich walnut stain",
+          "assembly": "Assembly required"
+        },
+        "rating": 4.2,
+        "review_count": 456
+      },
+      {
+        "id": 306,
+        "name": "Nest Learning Thermostat",
+        "brand": "Google Nest",
+        "category": "home",
+        "price": 249.99,
+        "sku": "NEST-THERMO-3RD-GEN",
+        "description": "Smart thermostat that learns your schedule and preferences to save energy. Control from anywhere with the Nest app and works with most HVAC systems.",
+        "features": ["Auto-learning", "Remote control", "Energy saving", "Works with most systems"],
+        "specifications": {
+          "compatibility": "95% of HVAC systems",
+          "connectivity": "Wi-Fi, Bluetooth",
+          "display": "2.08-inch color display",
+          "sensors": "Temperature, humidity, proximity, ambient light",
+          "installation": "Professional installation recommended"
+        },
+        "rating": 4.4,
+        "review_count": 2187
+      }
+    ]
+  }

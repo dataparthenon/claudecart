@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "claudecart"
+version = "0.1.0"
+description = "ClaudeCart is a multimodal, agent-based retail assistant that uses Claude + MCP to route user queries between SQL-based inventory lookup and RAG-based product discovery. It runs as a Streamlit Cloud application with an embedded vector store and a lightweight SQLite product database."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Brian O'Grady", email = "genesysdatallc@gmail.com" }
+]
+maintainers = [
+    { name = "Brian O'Grady", email = "genesysdatallc@gmail.com" }
+]
+dependencies = [
+    "anthropic>=0.52.0",
+    "arize-otel>=0.8.1",
+    "chromadb>=1.0.10",
+    "fastembed>=0.7.0",
+    "firecrawl-py>=2.7.0",
+    "openinference-instrumentation-anthropic>=0.1.18",
+    "sqlite-utils>=3.38",
+    "streamlit>=1.45.1",
+    "tavily-python>=0.7.3",
+]
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/claudecart"]

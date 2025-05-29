@@ -1,0 +1,118 @@
+{
+    "electronics": [
+      {
+        "id": 101,
+        "name": "Samsung Galaxy S24 Ultra",
+        "brand": "Samsung",
+        "category": "electronics",
+        "price": 1199.99,
+        "sku": "GALAXY-S24U-256",
+        "description": "Premium Android smartphone with S Pen, 200MP camera, and AI-powered features. Features a 6.8-inch Dynamic AMOLED display and titanium construction.",
+        "features": ["S Pen included", "200MP camera", "AI photo editing", "Titanium frame", "6.8-inch display"],
+        "specifications": {
+          "display": "6.8-inch Dynamic AMOLED 2X",
+          "storage": "256GB",
+          "camera": "200MP + 50MP + 12MP + 10MP",
+          "battery": "5000mAh",
+          "processor": "Snapdragon 8 Gen 3"
+        },
+        "rating": 4.5,
+        "review_count": 876
+      },
+      {
+        "id": 102,
+        "name": "Dell XPS 13",
+        "brand": "Dell",
+        "category": "electronics",
+        "price": 1099.99,
+        "sku": "DELL-XPS13-512",
+        "description": "Ultraportable laptop with 13.4-inch InfinityEdge display and 12th Gen Intel processors. Perfect for productivity and creativity on the go.",
+        "features": ["13.4-inch InfinityEdge display", "12th Gen Intel Core", "Premium build quality", "Long battery life"],
+        "specifications": {
+          "processor": "Intel Core i5-1235U",
+          "memory": "16GB LPDDR5",
+          "storage": "512GB SSD",
+          "display": "13.4-inch FHD+",
+          "weight": "2.59 pounds"
+        },
+        "rating": 4.3,
+        "review_count": 542
+      },
+      {
+        "id": 103,
+        "name": "iPad Pro 12.9-inch M2",
+        "brand": "Apple",
+        "category": "electronics", 
+        "price": 1099.99,
+        "sku": "IPAD-PRO129-M2-128",
+        "description": "The ultimate iPad experience with M2 chip performance and stunning Liquid Retina XDR display. Compatible with Apple Pencil and Magic Keyboard.",
+        "features": ["M2 chip", "12.9-inch Liquid Retina XDR", "Apple Pencil support", "Thunderbolt connectivity"],
+        "specifications": {
+          "processor": "Apple M2 chip",
+          "storage": "128GB",
+          "display": "12.9-inch Liquid Retina XDR",
+          "cameras": "12MP Wide, 10MP Ultra Wide",
+          "weight": "1.5 pounds"
+        },
+        "rating": 4.7,
+        "review_count": 1234
+      },
+      {
+        "id": 104,
+        "name": "Bose QuietComfort 45",
+        "brand": "Bose",
+        "category": "electronics",
+        "price": 329.99,
+        "sku": "BOSE-QC45-BLK",
+        "description": "World-class noise cancelling headphones with balanced audio performance. Comfortable for all-day listening with 24-hour battery life.",
+        "features": ["Noise cancelling", "24-hour battery", "Comfortable design", "Bose audio quality"],
+        "specifications": {
+          "battery": "24 hours",
+          "connectivity": "Bluetooth 5.1",
+          "weight": "240g",
+          "charging": "USB-C",
+          "controls": "Touch and button controls"
+        },
+        "rating": 4.4,
+        "review_count": 967
+      },
+      {
+        "id": 105,
+        "name": "Nintendo Switch OLED",
+        "brand": "Nintendo",
+        "category": "electronics",
+        "price": 349.99,
+        "sku": "NSW-OLED-WHT",
+        "description": "Enhanced Nintendo Switch with vibrant 7-inch OLED screen, improved audio, and enhanced kickstand for tabletop play.",
+        "features": ["7-inch OLED screen", "Enhanced audio", "Improved kickstand", "64GB internal storage"],
+        "specifications": {
+          "screen": "7-inch OLED touchscreen",
+          "storage": "64GB internal",
+          "battery": "4.5-9 hours",
+          "connectivity": "Wi-Fi, Bluetooth",
+          "dimensions": "4.0 x 9.5 x 0.55 inches"
+        },
+        "rating": 4.6,
+        "review_count": 1456
+      },
+      {
+        "id": 106,
+        "name": "LG C3 OLED TV 55-inch",
+        "brand": "LG",
+        "category": "electronics",
+        "price": 1799.99,
+        "sku": "LG-C3-55-OLED",
+        "description": "Premium OLED TV with perfect blacks, vibrant colors, and smart webOS platform. Ideal for gaming and streaming with low input lag.",
+        "features": ["OLED display", "webOS smart platform", "Gaming optimized", "Dolby Vision/Atmos"],
+        "specifications": {
+          "screen_size": "55 inches",
+          "resolution": "4K (3840 x 2160)",
+          "hdr": "Dolby Vision, HDR10, HLG",
+          "refresh_rate": "120Hz",
+          "smart_os": "webOS 23"
+        },
+        "rating": 4.8,
+        "review_count": 743
+      }
+    ]
+  }

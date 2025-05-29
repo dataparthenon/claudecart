@@ -1,0 +1,103 @@
+{
+    "policies": {
+      "return": {
+        "title": "Return Policy",
+        "content": "We offer a 30-day return policy on most items. Products must be in original condition with all packaging and accessories included.",
+        "details": {
+          "time_limit": "30 days from purchase date",
+          "conditions": [
+            "Item must be in original condition",
+            "All original packaging and accessories must be included",
+            "Receipt or proof of purchase required",
+            "Item must not show signs of wear or damage"
+          ],
+          "exceptions": [
+            "Opened software and digital downloads",
+            "Personalized or customized items",
+            "Perishable goods",
+            "Items marked as final sale"
+          ],
+          "contact_info": "Customer Service: 1-800-CLAUDECART or support@claudecart.com"
+        }
+      },
+      "warranty": {
+        "title": "Warranty Information",
+        "content": "Most products come with manufacturer warranties. Extended warranty options are available for electronics and appliances.",
+        "details": {
+          "time_limit": "Varies by manufacturer (typically 1-2 years)",
+          "conditions": [
+            "Warranty covers manufacturing defects",
+            "Does not cover damage from misuse or accidents",
+            "Original receipt required for warranty claims",
+            "Warranty service handled by manufacturer"
+          ],
+          "exceptions": [
+            "Physical damage from drops or spills",
+            "Damage from unauthorized repairs",
+            "Normal wear and tear",
+            "Software issues not related to hardware"
+          ],
+          "contact_info": "Warranty claims: warranty@claudecart.com or manufacturer directly"
+        }
+      },
+      "shipping": {
+        "title": "Shipping Policy",
+        "content": "We offer free standard shipping on orders over $50. Express shipping available for faster delivery.",
+        "details": {
+          "time_limit": "Standard: 5-7 business days, Express: 2-3 business days",
+          "conditions": [
+            "Free standard shipping on orders $50+",
+            "Express shipping available for additional fee",
+            "Orders ship within 1-2 business days",
+            "Tracking information provided via email"
+          ],
+          "exceptions": [
+            "Remote locations may require additional time",
+            "Large appliances require special delivery",
+            "Hazardous materials cannot be shipped",
+            "International shipping not available"
+          ],
+          "contact_info": "Shipping questions: shipping@claudecart.com or 1-800-CLAUDECART"
+        }
+      },
+      "price_match": {
+        "title": "Price Match Guarantee",
+        "content": "We'll match the price of identical items found at major competitors. Price match must be requested before purchase.",
+        "details": {
+          "time_limit": "Must be requested at time of purchase",
+          "conditions": [
+            "Item must be identical (same model, brand, specifications)",
+            "Competitor must be authorized retailer",
+            "Competitor's price must be currently available",
+            "Proof of competitor's price required"
+          ],
+          "exceptions": [
+            "Marketplace sellers (eBay, Amazon third-party)",
+            "Auction sites or bid-based pricing",
+            "Member-only pricing or club stores",
+            "Clearance, closeout, or limited-time offers"
+          ],
+          "contact_info": "Price match requests: pricematch@claudecart.com"
+        }
+      },
+      "general": {
+        "title": "General Store Policies",
+        "content": "Our commitment to excellent customer service includes fair policies, quality products, and responsive support.",
+        "details": {
+          "time_limit": "Policies updated periodically - check website for current terms",
+          "conditions": [
+            "All sales subject to availability",
+            "Prices subject to change without notice",
+            "Age restrictions apply to certain products",
+            "Valid ID required for some purchases"
+          ],
+          "exceptions": [
+            "Special orders may have different terms",
+            "Bulk orders may require additional processing time",
+            "Some items restricted by state or local laws"
+          ],
+          "contact_info": "General inquiries: info@claudecart.com or visit our FAQ page"
+        }
+      }
+    }
+  }

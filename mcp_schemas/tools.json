@@ -1,0 +1,41 @@
+{
+    "tools": [
+      {
+        "name": "search_competitor_prices",
+        "description": "Search for product prices at competitor retailers using Tavily API",
+        "input_schema": {
+          "type": "object",
+          "properties": {
+            "product_name": {
+              "type": "string",
+              "description": "Name of the product to search for"
+            },
+            "brand": {
+              "type": "string", 
+              "description": "Product brand/manufacturer"
+            },
+            "retailers": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "List of retailer names to search (e.g. ['walmart', 'target', 'amazon'])"
+            }
+          },
+          "required": ["product_name", "retailers"]
+        }
+      },
+      {
+        "name": "get_price_match_policy",
+        "description": "Get price matching policy and competitor list for a specific retailer",
+        "input_schema": {
+          "type": "object",
+          "properties": {
+            "retailer": {
+              "type": "string",
+              "description": "Retailer name (e.g. 'bestbuy', 'walmart', 'target')"
+            }
+          },
+          "required": ["retailer"]
+        }
+      }
+    ]
+  }
